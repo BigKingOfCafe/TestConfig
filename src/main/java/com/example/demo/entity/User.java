@@ -1,11 +1,14 @@
 package com.example.demo.entity;
 
+import org.springframework.stereotype.Component;
+
 /**
  * @Author: LQ;
  * @Date: 2022/8/1 15:23
  * @Version 1.0
  * @Description:
  */
+@Component
 public class User {
     private String name;
     private int age;
